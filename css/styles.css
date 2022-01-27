@@ -14,7 +14,9 @@ body {
 header {
     background: #F5F4FA;
 }
-
+button {
+    font-family: Roboto, sans-serif;
+}
 /* header-logo */
 .logo-first {
 color: var(--accent-color);
@@ -54,6 +56,8 @@ ul {
 .contacts-header .link {
     color: var(--primary-text-color);
     text-decoration: none; 
+    font-size: 14px;
+    line-height: 1.14;
     }
 .contacts-header .link:hover,
 .contacts-header .link:focus {
@@ -89,7 +93,6 @@ ul {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    text-transform: uppercase;
 }
 .section-title-h2 {
     font-weight: 700;
@@ -102,18 +105,25 @@ ul {
     color: #212121;
 
 }
-.section,
-.our-team-section {
-    color: var(--primary-text-color);
+.benefits-list .section-title {
+    text-transform: uppercase;
 }
 .benefits-list .text {
     font-size: 14px;
     line-height: 1.71;
 }
+.section,
+.our-team-section {
+    color: var(--primary-text-color);
+}
 .our-team-section {
     background: #F5F4FA;
 }
 .team .text {
+    font-size: 16px;
+    line-height: 1.19;
+}
+.team .section-title {
     font-size: 16px;
     line-height: 1.19;
 }
@@ -124,12 +134,18 @@ ul {
 
 /* contacts footer */
 .contacts-footer .link {
-    color: var(--primary-text-color);
+    color: #FFFFFF;
     text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
 }
 .contacts-footer .link-cont {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
 }
 .contacts-footer .link-cont:hover,
 .contacts-footer .link-cont:focus {
@@ -141,6 +157,9 @@ ul {
 }
 .down-side {
     background: #2F303A;
+}
+.portfolio {
+    display: none;
 }
 /* portfolio filter buttons */
 .filter-button {
@@ -160,4 +179,10 @@ ul {
 .specification .text {
     font-size: 16px;
     line-height: 1.88px;
+    font-weight: 400;
+}
+.specification .section-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
